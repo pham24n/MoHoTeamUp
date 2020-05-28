@@ -47,6 +47,15 @@ nav a {
   margin:0;
 }
 
+nav a:hover {
+  background-color:#307ddc;
+  color: rgb(235, 236, 238);
+}
+nav a.active {
+  background-color:  #307ddc;
+  color: white;
+}
+
 h2, p {
   margin: 10px;
   text-align: center;
