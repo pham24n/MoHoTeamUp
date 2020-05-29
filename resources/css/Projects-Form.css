@@ -28,8 +28,8 @@ h1 {
 }
 
 h2 {
-  text-align:center; 
-  color:#004aad; 
+  text-align:center;
+  color:#004aad;
   font-family: "League Spartan";
   font-size: 40px;
 
@@ -74,18 +74,21 @@ div.nav a {
 /*
 CSS PROJECTS FORM PAGE
 */
-  
+
 div.container {
   border:2px solid #ccc;
   border-radius: 15px;
   height: 35em;
   align-content: center;
   overflow-y: scroll;
+  width:60%;
+  margin: 0px 20% 0 20%;
+  background-color:#f2f2f2;
 
-    }
+
+}
 table#tbl-register {
     width: 100%;
-    margin: 0px auto;
 }
 
 table#tbl-register, th, td {
@@ -94,13 +97,13 @@ table#tbl-register, th, td {
 
 table#tbl-register td:nth-child(odd) {
     text-align: left;
-    width:35%; 
+    width:20%;
 }
  textarea {
-    width: 50%;
-    padding: 12px;
+    width: 80%;
+    padding: 15px;
     border: 1px solid #ccc;
-    border-radius: 35px;
+    border-radius: 25px;
     background-color: #307ddc;
     resize: vertical;
     text-align: left;
@@ -113,7 +116,7 @@ table#tbl-register td:nth-child(odd) {
     text-align: center;
     width: 5%;
     float: right;
-    padding: 12px;
+    padding: 15px;
     border: 5px solid #307ddc ;
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
@@ -122,7 +125,7 @@ table#tbl-register td:nth-child(odd) {
     font-size: large;
     font-weight: bold;
     font-family: "Aileron Light"
-    
+
   }
 
   span{
@@ -146,12 +149,14 @@ table#tbl-register td:nth-child(odd) {
   display: inline-block;
   font-size: 15px;
   font-weight: bold;
-  margin-left: 15%;
+  -ms-transform: translateX(50%);
+  transform: translateX(50%);
+  /* margin-left: 15%; */
 }
 button:hover{
   background-color: #307ddc;
   color: rgb(235, 236, 238);
-  
+
 }
 /*
 CSS PROJECTS PAGE
@@ -169,7 +174,7 @@ CSS PROJECTS PAGE
   content: "";
   display: table;
   text-align: justify;
-  
+
 }
 * {
   box-sizing: border-box;
@@ -185,33 +190,32 @@ CSS PROJECTS PAGE
     font-family: "Aileron Light";
     /* grid-auto-rows: 100px; */
   }
-  
+
   .item-1 {
     grid-column: 1;
     grid-row: 1;
     display: flex;
     align-items: center;
     border-radius: 15px;
-  
+
   }
-  
+
   img, h3 {
     display: inline-block;
     padding: 0 10px;
   }
-  
+
   .item-2 {
     grid-column: 2;
     grid-row:1;
   }
-  
+
   .item-3 {
     grid-column: 1;
     grid-row: 2;
   }
-  
+
   .item-4 {
     grid-column: 2;
     grid-row: 2;
   }
-  
