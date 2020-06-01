@@ -9,10 +9,7 @@
 
 }
 
-body {
 
-  background-color: whitesmoke;
-}
 canvas {
   position: absolute;
 
@@ -152,7 +149,7 @@ table#tbl-register td:nth-child(odd) {
   /* color: rgb(255, 255, 255); */
   color: #003366;
   font-weight: bold;
-  font-family: "Aileron Light"
+  font-family: "Aileron Light";
 }
 
 .button {
