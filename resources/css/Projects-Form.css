@@ -120,7 +120,7 @@ table#tbl-register td:nth-child(odd) {
     text-align: left;
     font-size: medium;
     font-family: "Aileron Light"
-    color: #003366;
+    color #003366;
 
 
     }
@@ -165,7 +165,8 @@ table#tbl-register td:nth-child(odd) {
   font-weight: bold;
   -ms-transform: translateX(50%);
   transform: translateX(50%);
-  /* margin-left: 15%; */
+  align-items: center;
+  margin-left: 15%; 
 }
 button:hover{
   background-color: #307ddc;
