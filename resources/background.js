@@ -2,8 +2,8 @@ var canvas = document.getElementById('background');
 
 var ctx = canvas.getContext('2d');
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight +200;
+// canvas.width = window.innerWidth;
+// canvas.height = window.innerHeight +1000;
 
 
 function getRndInteger(min, max) {
@@ -17,10 +17,10 @@ ctx.fillStyle = "rgba(255,255,255)";
 ctx.fillRect(0, 0, canvas.width, canvas.height);
 var xPos = [];
 var yPos = [];
-var numOfUnitX = 10;
-var numOfUnitY = 10;
-var unitW = (window.innerWidth +300)/numOfUnitX;
-var unitH = (window.innerHeight +500)/numOfUnitY;
+var numOfUnitX = 12;
+var numOfUnitY = 12;
+var unitW = (canvas.width +300)/numOfUnitX;
+var unitH = (canvas.height +500)/numOfUnitY;
 
 for (y = 0; y < numOfUnitX; y++) {
   for (x = 0; x < numOfUnitY; x++) {
@@ -40,7 +40,7 @@ for (y = 0; y < numOfUnitX; y++) {
 
 for (i = 0; i < xPos.length -1; i++){
   if ((i+1)%numOfUnitX != 0) {
-    
+
 
     ctx.beginPath();
     ctx.moveTo(xPos[i], yPos[i]);

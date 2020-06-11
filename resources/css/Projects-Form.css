@@ -1,236 +1,31 @@
-@font-face {
-  font-family: "League Spartan";
-  src: url("./font/LeagueSpartan-Bold.otf");
-}
-
-@font-face {
-  font-family: "Aileron Light";
-  src: url("./font/Aileron-Light.otf");
-
-}
-
-
-canvas {
-  position: absolute;
-
-  left:0;
-  top:0;
-  display:block;
-  z-index:-1;
-}
-
-h1 {
-  color: white;
-  font-family: "League Spartan";
-  background-color: #004aad;
-  font-size: 100px;
-  text-align: center;
-  margin: 0;
-  width: 100%;
-  height:120px;
-  padding-top: 10px;
-  padding-bottom:10px;
-  /* position:fixed; */
-}
+@import "layout.css";
 
 h2 {
   text-align:center;
   color:#003366;
   font-family: "Aileron Light";
   font-size: 50px;
-  margin: 10px;
-
-
-}
-/*
-CSS NAV BAR
-*/
-
-div.nav {
-  width:100%;
-  height:50px;
-  background-color: #004aad;
-  font-size: 0;
-  font-family: "Aileron Light";
-  margin-top: 100px;
-  display: flex;
-  align-items: center;
-  margin:0;
-  /* position:fixed; */
+  margin: 20px;
 }
 
-div.nav a {
-  text-decoration: none;
-  color: white;
-  display: inline-block;
-  text-align: center;
-  flex: 1;
-  font-size: 25px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin:0;
-}
-
-.nav a:hover {
-  background-color:#307ddc;
-  color: rgb(235, 236, 238);
-}
-.nav a.active {
-  background-color:  #307ddc;
-  color: white;
-}
 /*
 CSS PROJECTS FORM PAGE
 */
 
 div.container {
-  /* border:2px solid #ccc;
-  border-radius: 15px; */
-  height: 35em;
+  border:2px solid #ccc;
+  border-radius: 15px;
+  /* height: 35em; */
   align-content: center;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   width:50%;
   margin: 0px 25% ;
 
-  /* background-color: rgba(0, 74, 173, 0.2); */
+  background-color: rgba(0, 68, 173, 0.3);
   /* background-color:#f2f2f2; */
 
 }
-table#tbl-register {
-    width: 100%;
 
+iframe {
+  padding-left: 20px; 
 }
-
-table#tbl-register, th, td {
-    padding: 5px;
-}
-
-table#tbl-register td:nth-child(odd) {
-    text-align: left;
-    width:20%;
-}
- textarea {
-    width: 90%;
-    padding: 30px;
-    border: 1px solid #004aad;
-    border-radius: 25px;
-    /* background-color: #307ddc; */
-    background-color: rgba(0, 74, 173, 0.3);
-    resize: vertical;
-    text-align: left;
-    font-size: medium;
-    font-family: "Aileron Light"
-    color #003366;
-
-
-    }
-
-  /* input[type=text] {
-    text-align: center;
-    width: 5%;
-    float: right;
-    padding: 15px;
-    border: 5px solid #307ddc ;
-    border-radius: 50%;
-    background-color: rgb(255, 255, 255);
-    resize: vertical;
-    color: #307ddc;
-    font-size: large;
-    font-weight: bold;
-    font-family: "Aileron Light"
-
-  } */
-
-  span{
-    float: center;
-  }
-
-::placeholder {
-  /* color: rgb(255, 255, 255); */
-  color: #003366;
-  font-weight: bold;
-  font-family: "Aileron Light";
-}
-
-.button {
-  background-color:  #004aad;
-  border-radius: 12px;
-  color: white;
-  padding: 15px 30px;
-  text-align: center;
-  text-decoration: none;
-  font-family: "Aileron Light";
-  display: inline-block;
-  font-size: 15px;
-  font-weight: bold;
-  -ms-transform: translateX(50%);
-  transform: translateX(50%);
-  align-items: center;
-  margin-left: 15%; 
-}
-button:hover{
-  background-color: #307ddc;
-  color: rgb(235, 236, 238);
-
-}
-/*
-CSS PROJECTS PAGE
-*/
-/* Create two equal columns that floats next to each other */
-/* .column {
-  border-radius: 5%;
-  padding: 70px;
-  background-color:#307ddc;
-  text-align: justify;
-  display: inline-block;
-}
-
-.row {
-  content: "";
-  display: table;
-  text-align: justify;
-
-}
-* {
-  box-sizing: border-box;
-}
-*/
-
-.grid-container {
-    display:grid;
-    grid-template-columns: 50% 1fr;
-    margin-left: 500px;
-    margin-right: 500px;
-    grid-gap: 30px;
-    font-family: "Aileron Light";
-    /* grid-auto-rows: 100px; */
-  }
-
-  .item-1 {
-    grid-column: 1;
-    grid-row: 1;
-    display: flex;
-    align-items: center;
-    border-radius: 15px;
-
-  }
-
-  img, h3 {
-    display: inline-block;
-    padding: 0 10px;
-  }
-
-  .item-2 {
-    grid-column: 2;
-    grid-row:1;
-  }
-
-  .item-3 {
-    grid-column: 1;
-    grid-row: 2;
-  }
-
-  .item-4 {
-    grid-column: 2;
-    grid-row: 2;
-  }

@@ -1,18 +1,6 @@
-@font-face {
-  font-family: "League Spartan";
-  src: url("./font/LeagueSpartan-Bold.otf");
-}
+@import "layout.css";
 
-@font-face {
-  font-family: "Aileron Light";
-  src: url("./font/Aileron-Light.otf");
-}
-
-body {
-  padding:0;
-  margin:0;
-}
-h1 {
+/* h1 {
   color: white;
   font-family: "League Spartan";
   background-color: #004aad;
@@ -23,62 +11,7 @@ h1 {
   height:120px;
   padding-top: 10px;
   padding-bottom:10px;
-  /* position:fixed; */
-}
-
-canvas {
-  position: absolute;
-
-  left:0;
-  top:0;
-  display:block;
-  z-index:-1;
-}
-
-#projectName {
-  /* background-color: #004aad; */
-  color: #004aad;
-  /* color: white; */
-  font-family: "League Spartan";
-  text-align: center;
-  font-size:40px;
-
-}
-
-
-
-nav {
-  padding-top: 10px;
-  font-size:0;
-  /* background-color: #0044ad; */
-  font-family: "Aileron Light";
-
-}
-
-
-nav a {
-  text-decoration: none;
-  color: #0044ad;
-  /* color:white; */
-  text-align: center;
-  flex: 1;
-  font-size: 22px;
-  display: inline-block;
-  padding: 10px 20px 10px 20px;
-  margin:0;
-  font-weight: bold;
-
-}
-
-nav a:hover {
-  background-color:#307ddc;
-  color: rgb(235, 236, 238);
-}
-nav a.active {
-  background-color:  #307ddc;
-  color: white;
-}
-
+} */
 
 
 .about{
@@ -86,19 +19,13 @@ nav a.active {
   height: 300px;
   margin-left: -10px;
   padding-left: 20px;
-  /* margin-top: 10px; */
-  /* margin-top: -10px; */
   margin-top:10px;
-  /* border: 1px solid #004aad; */
-  /* margin-right: -10px; */
+
 }
 
 .whyProject {
   height: 300px;
   padding-top: 30px;
-  /* background-color: rgba(0, 68, 173, 0.3); */
-
-
 }
 
 .instruction {
@@ -120,8 +47,6 @@ ul {
 ul li {
   margin-left: 60px;
   font-size: 23px;
-  /* font-weight: bold; */
-  /* line-height: 1.5; */
 
 }
 
