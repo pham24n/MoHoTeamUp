@@ -16,7 +16,7 @@
 
 .about{
   background-color: rgba(0, 68, 173, 0.3);
-  height: 300px;
+  height: 330px;
   margin-left: -10px;
   padding-left: 20px;
   margin-top:10px;
@@ -24,13 +24,13 @@
 }
 
 .whyProject {
-  height: 300px;
+  height: 330px;
   padding-top: 30px;
 }
 
 .instruction {
   background-color: rgba(0, 68, 173, 0.3);
-  height: 300px;
+  height: 330px;
   margin-left: -10px;
   padding-top: 30px;
 }

@@ -1,1 +1,57 @@
 @import "layout.css";
+
+h2, p {
+  margin: 10px;
+  color: #003366;
+  font-family:"Aileron Light";
+}
+
+h2 {
+  font-size: 40px;
+  text-align: left;
+  padding-left: 40px;
+  font-weight: bold;
+}
+
+p {
+  padding: 0 3%;
+  font-size: 25px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.introduction {
+  height: 330px;
+  padding-top:30px;
+  background-color: rgba(0, 68, 173, 0.3);
+  margin-left: -10px;
+  padding-left: 20px;
+  margin-top:10px;
+}
+
+.idea {
+  height: 330px;
+  padding-top:30px;
+
+}
+
+.getStarted {
+  height: 330px;
+  padding-top:30px;
+  background-color: rgba(0, 68, 173, 0.3);
+  margin-left: -10px;
+  padding-left: 20px;
+}
+
+.toDoNext {
+  height: 330px;
+  padding-top:30px;
+}
+
+.additionalInfo {
+  height: 330px;
+  padding-top:30px;
+  background-color: rgba(0, 68, 173, 0.3);
+  margin-left: -10px;
+  padding-left: 20px;
+}
