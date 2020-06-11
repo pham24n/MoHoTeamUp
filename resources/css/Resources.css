@@ -30,8 +30,18 @@ p {
 }
 
 .idea {
-  height: 330px;
+  height: 550px;
   padding-top:30px;
+
+}
+ul {
+  padding-top: 0;
+}
+ul li {
+  margin-left: 60px;
+  font-size: 23px;
+  color: #003366;
+  font-family:"Aileron Light";
 
 }
 
