@@ -1,31 +1,32 @@
 @import "layout.css";
 
-h2 {
+/* h2 {
   text-align:center;
   color:#003366;
   font-family: "Aileron Light";
   font-size: 50px;
   margin: 20px;
-}
+} */
 
 /*
 CSS PROJECTS FORM PAGE
 */
 
-div.container {
+/* div.container {
   border:2px solid #ccc;
   border-radius: 15px;
-  /* height: 35em; */
+   height: 35em; 
   align-content: center;
-  /* overflow-y: scroll; */
+   overflow-y: scroll;
   width:50%;
   margin: 0px 25% ;
 
   background-color: rgba(0, 68, 173, 0.3);
-  /* background-color:#f2f2f2; */
 
-}
+} */
 
-iframe {
-  padding-left: 20px; 
+#googleForm {
+  /*margin-left: auto;/*
+  /*margin-right: auto;*/
+  text-align: center;
 }
