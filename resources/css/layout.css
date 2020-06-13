@@ -27,6 +27,7 @@ canvas {
   font-family: "League Spartan";
   text-align: center;
   font-size:40px;
+
 }
 
 nav {
@@ -53,10 +54,15 @@ nav a {
 nav a:hover {
   background-color:#307ddc;
   color: rgb(235, 236, 238);
+  border-radius: 5px;
 }
+
+
 nav a.active {
   background-color:  #307ddc;
   color: white;
+  border-radius: 5px;
+
 }
 
 footer {
