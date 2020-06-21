@@ -16,23 +16,31 @@
 
 .about{
   background-color: rgba(0, 68, 173, 0.3);
-  height: 330px;
+  height: auto;
+  max-height: 1000px ;/*330px;*/
   margin-left: -10px;
   padding-left: 20px;
   margin-top:10px;
+  padding-bottom: 30px;
 
 }
 
 .whyProject {
-  height: 330px;
+  height: auto;
+  max-height: 1000px;
   padding-top: 30px;
+  padding-bottom: 30px;
+
 }
 
 .instruction {
   background-color: rgba(0, 68, 173, 0.3);
-  height: 330px;
+  height: auto;
+  max-height: 1000px;
   margin-left: -10px;
   padding-top: 30px;
+  padding-bottom: 30px;
+
 }
 
 h2, p, li {

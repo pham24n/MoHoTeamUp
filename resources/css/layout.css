@@ -12,6 +12,9 @@
 body {
   padding:0;
   margin:0;
+  height: 100%;
+  width: 100%;
+    
 }
 
 canvas {
@@ -35,6 +38,11 @@ nav {
   padding-top: 10px;
   font-size:0;
   font-family: "Aileron Light";
+  /* new addition */
+  margin-right: auto;    
+    margin-left: auto;    
+    max-width: 100%;    
+    min-width: 1000px;
 
 }
 
